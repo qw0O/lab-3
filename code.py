@@ -1,3 +1,4 @@
+from collections import deque
 class Task:
     """Класс для объекта задачи"""
     def __init__(self, task_id, description, priority):
