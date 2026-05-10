@@ -64,7 +64,7 @@ if __name__ == "__main__":
     queue.enqueue(t2)
     queue.enqueue(t3)
 
-    print("\n--- Проверка первого элемента ---")
+    print("\n--- Вывод первого элемента ---")
     print(f"Первый в очереди: {queue.front()}")
 
     print("\n--- Вариативная часть ---")
